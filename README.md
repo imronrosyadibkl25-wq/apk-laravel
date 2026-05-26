@@ -1,7 +1,9 @@
-# Doctrine Inflector
+# Doctrine Lexer
 
-Doctrine Inflector is a small library that can perform string manipulations
-with regard to uppercase/lowercase and singular/plural forms of words.
+[![Build Status](https://github.com/doctrine/lexer/workflows/Continuous%20Integration/badge.svg)](https://github.com/doctrine/lexer/actions)
 
-[![Build Status](https://github.com/doctrine/inflector/workflows/Continuous%20Integration/badge.svg)](https://github.com/doctrine/inflector/actions?query=workflow%3A%22Continuous+Integration%22+branch%3A4.0.x)
-[![Code Coverage](https://codecov.io/gh/doctrine/inflector/branch/2.0.x/graph/badge.svg)](https://codecov.io/gh/doctrine/inflector/branch/2.0.x)
+Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.
+
+This lexer is used in Doctrine Annotations and in Doctrine ORM (DQL).
+
+https://www.doctrine-project.org/projects/lexer.html
